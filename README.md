@@ -1,2 +1,17 @@
-# healthfirst-care-analytics-capstone
-Data Analytics Capstone Project focusing on business requirements and operational efficiency for HealthFirst Care.
+# HealthFirst Care - Data Analytics Capstone Project
+
+## Executive Summary
+The **HealthFirst Care Initiative** is a data analytics project designed to address operational bottlenecks, high appointment drop-off rates, and resource allocation conflicts. This repository houses the complete Business Requirements Document (BRD) and supporting analytical workflows derived from appointment logs, patient surveys, and resource schedules.
+
+---
+
+## Repository Structure
+```text
+├── docs/
+│   └── Capstone_Project_M01L01_BRD.doc     # Business Requirements Document (BRD)
+├── scripts/
+│   ├── data_cleaning.py                    # Python scripts for data processing
+│   └── analysis.sql                        # SQL queries for aggregations and joins
+├── dashboards/
+│   └── dashboard_preview.png               # Visualizations & Tableau dashboards
+└── README.md                               # Main project documentation
