@@ -1,8 +1,8 @@
 # HealthFirst Care - Data Analytics Capstone Project
 
 * **Author / Analyst:** Pritam Kar  
-* **Course:** IBM Data Analytics Professional Certificate – Capstone Project[cite: 3]  
-* **Status:** Module 1 Completed (BRD & RTM Analysis)[cite: 3, 4]  
+* **Course:** IBM Data Analytics Professional Certificate – Capstone Project 
+* **Status:** Module 1 Completed (BRD & RTM Analysis)
 
 ---
 
