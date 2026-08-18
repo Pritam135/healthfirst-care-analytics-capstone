@@ -1,15 +1,14 @@
 # HealthFirst Care - Data Analytics Capstone Project
 
-**Author / Analyst:** Pritam Kar 
-**Course:** IBM Data Analytics Professional Certificate – Capstone Project
-**Status:** Module 1 Completed (BRD & RTM Analysis)  
+* **Author / Analyst:** Pritam Kar  
+* **Course:** IBM Data Analytics Professional Certificate – Capstone Project[cite: 3]  
+* **Status:** Module 1 Completed (BRD & RTM Analysis)[cite: 3, 4]  
 
 ---
 
 ## Executive Summary
-The **HealthFirst Care Initiative** is a data analytics project designed to address severe operational bottlenecks, high appointment drop-off rates, and resource allocation conflicts. By synthesizing empirical data across **216 appointment records**, **217 patient feedback logs**, and **213 resource records**, this repository houses the complete Business Requirements Document (BRD) and Requirements Traceability Matrix (RTM) derived from appointment logs, patient surveys, and resource schedules.
 
----
+The **HealthFirst Care Initiative** is a data analytics project designed to address severe operational bottlenecks, high appointment drop-off rates, and resource allocation conflicts[cite: 3, 4]. By synthesizing empirical data across **216 appointment records**, **217 patient feedback logs**, and **213 resource records**[cite: 3, 4], this repository houses the formal Business Requirements Document (BRD) and Requirements Traceability Matrix (RTM)[cite: 3, 4].
 
 ## Repository Structure
 ```text
