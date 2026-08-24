@@ -1,14 +1,14 @@
 # HealthFirst Care - Data Analytics & Business Analysis Capstone Project
 
-* **Author / Analyst:** Pritam Kar
-* **Course:** IBM - Introduction to Business Analysis
-* **Status:** In Progress (Modules 1 & 2 Completed | Module 3 In Progress)
+- **Author / Analyst:** Pritam Kar
+- **Course:** IBM - Introduction to Business Analysis
+- **Status:** Modules 1, 2, & 3 Completed
 
 ---
 
 ## Executive Summary
 
-The **HealthFirst Care Initiative** addresses critical operational bottlenecks impacting patient experience and hospital efficiency. By synthesizing empirical data across **216 appointment records**, **217 patient feedback logs**, and **213 resource records**, this repository houses the end-to-end data analysis, process models, business requirements, and operational dashboards.
+The **HealthFirst Care Initiative** addresses critical operational bottlenecks impacting patient experience and hospital efficiency. By synthesizing empirical data across **216 appointment records**, **217 patient feedback logs**, and **213 resource records**, this repository houses the end-to-end data analysis, BPMN process models, swimlane workflow diagrams, business requirements, and operational dashboards.
 
 ---
 
@@ -23,20 +23,34 @@ The **HealthFirst Care Initiative** addresses critical operational bottlenecks i
 
 ---
 
+## Project Structure & Module Progress
+
+- **Module 1: Requirements Engineering (Completed)**
+  - Business Requirements Document (BRD) & Requirements Traceability Matrix (RTM).
+- **Module 2: Stakeholder & Scope Management (Completed)**
+  - Stakeholder Analysis & Engagement Plan, Work Breakdown Structure (WBS), and Scope Management Plan.
+- **Module 3: Advanced Business Process Modeling & Swimlane Workflows (Completed)**
+  - High-level As-Is and To-Be process models.
+  - Advanced BPMN swimlane workflow diagrams covering cross-functional operations (Appointment Scheduling, Patient Check-In & Triage, and Discharge Planning).
+  - Bottleneck identification and efficiency impact analysis.
+
+---
+
 ## Repository Structure
 
 ```text
 ├── docs/
-│   ├── Capstone_Project_M01L01_BRD.doc                  # Business Requirements Document (BRD)
-│   ├── Capstone_Project_M01L02_RTM.doc                  # Requirements Traceability Matrix (RTM)
-│   ├── Capstone_Project_M02L01_Stakeholder_Analysis.doc # Stakeholder Engagement Plan
-│   ├── Capstone_Project_M02L02_Scope_Management.doc     # Scope Management & Work Breakdown
-│   ├── Capstone_Project_M03L01_Process_Model.docx       # As-Is & To-Be Process Analysis
-│   ├── As_Is_Process_Model.pdf                          # Current State Process Flow Diagram
-│   └── To_Be_Process_Model.pdf                          # Future Optimized Process Flow Diagram
+│   ├── Capstone_Project_M01L01_BRD.doc.docx           # Business Requirements Document (BRD)
+│   ├── Capstone_Project_M01L02_RTM.docx               # Requirements Traceability Matrix (RTM)
+│   ├── Capstone_Project_M02L01_Stakeholder_Analysis.docx # Stakeholder Engagement Plan
+│   ├── Capstone_Project_M02L02_Scope_Management.doc   # Scope Management & Work Breakdown
+│   ├── Capstone_Project_M03L01_Process_Model.docx      # As-Is & To-Be Process Analysis
+│   ├── Capstone_Project_M03L02_Swimlane_Diagrams.docx # Detailed BPMN Swimlane Diagrams & Workflow Analysis
+│   ├── As_Is_Process_Model.pdf.pdf                    # Current State Process Flow Diagram
+│   └── To_Be_Process_Model.pdf                        # Future Optimized Process Flow Diagram
 ├── scripts/
-│   ├── data_cleaning.py                                 # Python data cleaning script
-│   └── analysis.sql                                     # SQL scripts for aggregations & joins
+│   ├── data_cleaning.py                               # Python data cleaning script
+│   └── analysis.sql                                   # SQL scripts for aggregations & joins
 ├── dashboards/
-│   └── dashboard_preview.png                            # Tableau & visual dashboards
-└── README.md                                            # Repository Documentation       
+│   └── dashboard_preview.png                          # Tableau & visual dashboards
+└── README.md                                          # Repository Documentation    
