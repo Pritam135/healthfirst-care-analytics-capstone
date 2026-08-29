@@ -1,8 +1,8 @@
 # HealthFirst Care - Data Analytics & Business Analysis Capstone Project
 
 - **Author / Analyst:** Pritam Kar
-- **Course:** IBM - Introduction to Business Analysis
-- **Status:** Modules 1, 2, & 3 Completed
+- **Course:** IBM - Introduction to Business Analysis (Coursera Capstone)
+- **Status:** Modules 1, 2, & 3 Completed | Module 4 In Progress (Part 1 Completed)
 
 ---
 
@@ -33,24 +33,24 @@ The **HealthFirst Care Initiative** addresses critical operational bottlenecks i
   - High-level As-Is and To-Be process models.
   - Advanced BPMN swimlane workflow diagrams covering cross-functional operations (Appointment Scheduling, Patient Check-In & Triage, and Discharge Planning).
   - Bottleneck identification and efficiency impact analysis.
+- **Module 4: Data Analysis & Visualization Dashboard (In Progress)**
+  - **Part 1 (Completed):** Data cleaning, missing value imputation, duplicate elimination, and exploratory data analysis (EDA) across appointment, feedback, and resource datasets (`appointment_data_task2.xlsx` & `Capstone_Project_M04L01_Data_Analysis.docx`).
+  - **Part 2 (In Progress):** Interactive dashboard creation using IBM Cognos Analytics / Looker to track KPI metrics, departmental bottlenecks, and resource utilization.
 
 ---
 
 ## Repository Structure
 
 ```text
-├── docs/
-│   ├── Capstone_Project_M01L01_BRD.doc.docx           # Business Requirements Document (BRD)
-│   ├── Capstone_Project_M01L02_RTM.docx               # Requirements Traceability Matrix (RTM)
-│   ├── Capstone_Project_M02L01_Stakeholder_Analysis.docx # Stakeholder Engagement Plan
-│   ├── Capstone_Project_M02L02_Scope_Management.doc   # Scope Management & Work Breakdown
-│   ├── Capstone_Project_M03L01_Process_Model.docx      # As-Is & To-Be Process Analysis
-│   ├── Capstone_Project_M03L02_Swimlane_Diagrams.docx # Detailed BPMN Swimlane Diagrams & Workflow Analysis
-│   ├── As_Is_Process_Model.pdf.pdf                    # Current State Process Flow Diagram
-│   └── To_Be_Process_Model.pdf                        # Future Optimized Process Flow Diagram
-├── scripts/
-│   ├── data_cleaning.py                               # Python data cleaning script
-│   └── analysis.sql                                   # SQL scripts for aggregations & joins
-├── dashboards/
-│   └── dashboard_preview.png                          # Tableau & visual dashboards
-└── README.md                                          # Repository Documentation    
+docs/
+├── Capstone_Project_M01L01_BRD.doc.docx           # Business Requirements Document (BRD)
+├── Capstone_Project_M01L02_RTM.docx               # Requirements Traceability Matrix (RTM)
+├── Capstone_Project_M02L01_Stakeholder_Analysis.docx # Stakeholder Engagement Plan
+├── Capstone_Project_M02L02_Scope_Management.doc   # Scope Management & Work Breakdown
+├── Capstone_Project_M03L01_Process_Model.docx     # As-Is & To-Be Process Analysis
+├── Capstone_Project_M03L02_Swimlane_Diagrams.docx # Detailed BPMN Swimlane Diagrams
+├── Capstone_Project_M04L01_Data_Analysis.docx     # Exploratory Data Analysis & Insights Report
+├── As_Is_Process_Model.pdf.pdf                    # Current State Process Flow Diagram
+├── To_Be_Process_Model.pdf.pdf                    # Future Optimized Process Flow Diagram
+└── appointment_data_task2 (1).xlsx               # Cleaned Multi-Sheet Excel Dataset
+README.md                                          # Repository Documentation
