@@ -1,14 +1,14 @@
-# HealthFirst Care - Data Analytics & Business Analysis Capstone Project
+**# HealthFirst Care - Data Analytics & Business Analysis Capstone Project
 
 - **Author / Analyst:** Pritam Kar
 - **Course:** IBM - Introduction to Business Analysis (Coursera Capstone)
-- **Status:** Modules 1, 2, 3, & 4 Completed
+- **Status:** Modules 1, 2, 3, & 4 Completed; Module 5 In Progress
 
 ---
 
 ## Executive Summary
 
-The **HealthFirst Care Initiative** addresses critical operational bottlenecks impacting patient experience and hospital efficiency. By synthesizing empirical data across **216 appointment records**, **217 patient feedback logs**, and **213 resource records**, this repository houses the end-to-end data analysis, BPMN process models, swimlane workflow diagrams, business requirements, and operational dashboards.
+The **HealthFirst Care Initiative** addresses critical operational bottlenecks impacting patient experience and hospital efficiency. By synthesizing empirical data across **216 appointment records**, **217 patient feedback logs**, and **213 resource records**, this repository houses the end-to-end data analysis, BPMN process models, swimlane workflow diagrams, business requirements, operational dashboards, and risk management planning.
 
 ---
 
@@ -35,7 +35,10 @@ The **HealthFirst Care Initiative** addresses critical operational bottlenecks i
   - Bottleneck identification and efficiency impact analysis.
 - **Module 4: Data Analysis & Visualization Dashboard (Completed)**
   - **Part 1 (Completed):** Data cleaning, missing value imputation, duplicate elimination, and exploratory data analysis (EDA) across appointment, feedback, and resource datasets (`appointment_data_task2.xlsx` & `Capstone_Project_M04L01_Data_Analysis.docx`).
-  - **Part 2 (Completed):** Interactive dashboard built in Looker Studio — line chart (wait time trends), bar chart (resource utilization by department), heatmap table (usage by department × resource type), and pie chart (satisfaction levels), with Department, Satisfaction Level, and date-range filters (`HealthFirst_Care_Dashboard.pdf.pdf` & `Capstone_Project_M04L02_Dashboard_Insights.docx`).
+  - **Part 2 (Completed):** Interactive dashboard built in Looker Studio – line chart (wait time trends), bar chart (resource utilization by department), heatmap table (usage by department x resource type), and pie chart (satisfaction levels), with Department, Satisfaction Level, and date-range filters (`HealthFirst_Care_Dashboard.pdf.pdf` & `Capstone_Project_M04L02_Dashboard_Insights.docx`).
+- **Module 5: Risk Management & SWOT Analysis (In Progress)**
+  - **Part 1 (Completed):** Risk Register documenting 15 Operational, Technical, and Stakeholder risks with Likelihood x Impact severity scoring, mitigation strategies, and a color-coded 3x3 Risk Assessment Matrix (`HealthFirst_Care_Risk_Register.xlsx`); Risk Management Plan combining the Risk Register, Risk Assessment Matrix, and a SWOT Analysis (`Capstone_Project_M05L01_Risk_Register_SWOT.docx`).
+  - **Part 2 (Pending):** Not yet started.
 
 ---
 
@@ -43,12 +46,19 @@ The **HealthFirst Care Initiative** addresses critical operational bottlenecks i
 
 ```text
 docs/
-├── Capstone_Project_M01L01_BRD.doc.docx               # Business Requirements Document (BRD)
-├── Capstone_Project_M01L02_RTM.docx                   # Requirements Traceability Matrix (RTM)
-├── Capstone_Project_M02L01_Stakeholder_Analysis.docx  # Stakeholder Engagement Plan
-├── Capstone_Project_M02L02_Scope_Management.doc       # Scope Management & Work Breakdown
-├── Capstone_Project_M04L01_Data_Analysis.docx         # As-Is & To-Be Process Analysis
-├── Capstone_Project_M04L02_Dashboard_Insights.docx    # Dashboard design process & business insights
-├── HealthFirst_Care_Dashboard.pdf.pdf                 # Exported Looker Studio dashboard
-```
+├── As_Is_Process_Model.pdf.pdf                          # Current-state BPMN process model
+├── Capstone_Project_M01L01_BRD.doc.docx                 # Business Requirements Document (BRD)
+├── Capstone_Project_M01L02_RTM.docx                     # Requirements Traceability Matrix (RTM)
+├── Capstone_Project_M02L01_Stakeholder_Analysis.docx    # Stakeholder Engagement Plan
+├── Capstone_Project_M02L02_Scope_Management.doc         # WBS & Scope Management Plan
+├── Capstone_Project_M03L01_Process_Model.docx           # As-Is / To-Be process model analysis
+├── Capstone_Project_M03L02_Swimlane_Diagrams.docx       # BPMN swimlane workflow diagrams
+├── Capstone_Project_M04L01_Data_Analysis.docx           # Data cleaning & EDA report
+├── Capstone_Project_M04L02_Dashboard_Insights.docx      # Dashboard design & insights report
+├── Capstone_Project_M05L01_Risk_Register_SWOT.docx      # Risk Management Plan & SWOT Analysis
+├── HealthFirst_Care_Dashboard.pdf.pdf                   # Exported Looker Studio dashboard
+├── HealthFirst_Care_Risk_Register.xlsx                  # Risk Register & Risk Assessment Matrix
+├── To_Be_Process_Model.pdf.pdf                          # Future-state BPMN process model
+└── appointment_data_task2 (1).xlsx                      # Cleaned datasets & pivot analysis
+```**
 
